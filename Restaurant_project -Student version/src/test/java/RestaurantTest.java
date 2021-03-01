@@ -50,7 +50,7 @@ class RestaurantTest {
 
     }
 
-    /*
+
     //Solution for part-3
     @Test
     public void order_total_should_return_total_order_value_when_items_are_ordered_from_menu(){
@@ -58,7 +58,7 @@ class RestaurantTest {
         List<String> menuItemNames = Arrays.asList("Sweet corn soup","Vegetable lasagne");
 
         assertEquals(388,restaurant.orderTotal(menuItemNames));
-    }*/
+    }
 
     //<<<<<<<<<<<<<<<<<<<<<<<<<OPEN/CLOSED>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
