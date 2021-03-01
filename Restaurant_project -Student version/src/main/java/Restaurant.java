@@ -19,21 +19,19 @@ public class Restaurant {
 
     //Part-2 solution
     public boolean isRestaurantOpen() {
-        /*LocalTime currLocalTime = getCurrentTime();
+        LocalTime currLocalTime = getCurrentTime();
         if(openingTime.isBefore(currLocalTime) && closingTime.isAfter(currLocalTime)) {
             return true;
         }else {
             return false;
-        }*/
-        return true;
+        }
     }
 
     public LocalTime getCurrentTime(){ return  LocalTime.now(); }
 
     public List<Item> getMenu() {
         //Part-2 solution
-        //return menu;
-        return null;
+        return menu;
     }
 
     private Item findItemByName(String itemName){

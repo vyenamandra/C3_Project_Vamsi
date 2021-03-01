@@ -6,7 +6,8 @@ public class RestaurantService {
     private static List<Restaurant> restaurants = new ArrayList<>();
 
     public Restaurant findRestaurantByName(String restaurantName) throws restaurantNotFoundException {
-        /* part-2 solution
+
+        //part-2 solution
         List<Restaurant> matches = new ArrayList<Restaurant>();
         boolean isRestaurantFound = false;
         for (Restaurant str : restaurants) {
@@ -19,8 +20,8 @@ public class RestaurantService {
         if (isRestaurantFound) {
             return (Restaurant) matches.get(0);
         } else
-            throw new restaurantNotFoundException(restaurantName);*/
-        return null;
+            throw new restaurantNotFoundException(restaurantName);
+
         }
 
     public Restaurant addRestaurant(String name, String location, LocalTime openingTime, LocalTime closingTime) {
