@@ -47,7 +47,7 @@ public class Restaurant {
         menu.add(newItem);
     }
 
-    /*
+
     //Solution for part-3
     public int orderTotal(List<String> itemNames) {
         int orderSum=0;
@@ -56,7 +56,7 @@ public class Restaurant {
             orderSum= orderSum+item.getPrice();
             }
         return orderSum;
-    }*/
+    }
     
     public void removeFromMenu(String itemName) throws itemNotFoundException {
 

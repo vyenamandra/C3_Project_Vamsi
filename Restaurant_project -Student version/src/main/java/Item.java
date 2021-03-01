@@ -17,9 +17,9 @@ public class Item {
                 + "\n"
                 ;
     }
-    /*
+
     //Solution for part-3
     public int getPrice() {
         return price;
-    }*/
+    }
 }
